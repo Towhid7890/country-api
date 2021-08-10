@@ -1,0 +1,16 @@
+#country-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.country{
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 20px;
+    color: magenta;
+    font-size: 30px;
+    text-align: center;
+}
+#country-details img{
+ width: 400px;
+}
